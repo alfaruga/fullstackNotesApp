@@ -1,0 +1,14 @@
+post http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    
+    "important": true,
+"userId":"63ed36ae9e4ed7c9cc418db7",
+    "content": "new note to check contents note to db7"
+}
+###
+GET http://localhost:3001/api/notes HTTP/1.1
+
+### 
+DELETE http://localhost:3001/api/notes/63eda0ceaab7744c057d4c92 HTTP/1.1
